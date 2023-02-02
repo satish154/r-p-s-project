@@ -30,7 +30,7 @@ const resultText = document.querySelector(".results__text");
 const playAgainBtn = document.querySelector(".play-again");
 
 const scoreNumber = document.querySelector(".score__number");
-let score = ;
+let score = 0;
 
 choiceButtons.forEach((button) => {
   button.addEventListener("click", () => {
@@ -115,4 +115,6 @@ playAgainBtn.addEventListener("click", () => {
 btnRules.addEventListener("click", () => {
   modalRules.classList.toggle("show-modal");
 });
-
+btnClose.addEventListener("click", () => {
+  modalRules.classList.toggle("show-modal");
+});

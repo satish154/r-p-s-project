@@ -320,6 +320,7 @@ body {
 }
 .rules-img {
   padding: 1rem 2rem;
+  shape-margin: 0px;
 }
 .show-modal {
   opacity: 1;
